@@ -1,0 +1,10 @@
+syntax = "proto3";
+package POGOProtos.Enums;
+
+enum PartyRecommendationMode {
+	UNSET = 0;
+	PARTY_RECOMMENDATION_MODE_1 = 1;
+	PARTY_RECOMMENDATION_MODE_2 = 2;
+	PARTY_RECOMMENDATION_MODE_3 = 3;
+	PARTY_RECOMMENDATION_MODE_4 = 4;
+}
