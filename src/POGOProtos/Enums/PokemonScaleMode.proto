@@ -1,0 +1,11 @@
+syntax = "proto3";
+package POGOProtos.Enums;
+
+enum PokemonScaleMode {
+	NaturalScale = 0;
+	GuiScale = 1;
+	BattlePokemonScale = 2;
+	RaidBossScale = 3;
+	GymTopperScale = 4;
+	MapPokemonScale = 5;
+}
