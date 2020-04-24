@@ -1,0 +1,14 @@
+syntax = "proto3";
+package POGOProtos.Enums.Buddy;
+
+enum BuddyTrait {
+	UNSET = 0;
+	MAP_DEPLOY = 1;
+	ENCOUNTER_CAMEO = 2;
+	EMOTION_INDICATOR = 3;
+	PICK_UP_CONSUMABLES = 4;
+	PICK_UP_SOUVENIRS = 5;
+	FIND_ATTRACTIVE_POIS = 6;
+	BEST_BUDDY_ASSET = 7;
+	CP_BOOST = 8;
+}
